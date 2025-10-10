@@ -75,3 +75,7 @@ Authorization: Bearer <ACCESS_TOKEN>
 ## Git e GitFlow
 
 Esse projeto utiliza GitFlow como estratégia de branching.
+
+## HTTP para HTTPs
+
+Foram feita modificações de segurança com Openssl com Chaves privada e Certificado de segurança, testados no Postman e alteração no serer.js
