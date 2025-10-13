@@ -22,7 +22,7 @@ https.createServer({
   key: fs.readFileSync('server.key'),
   cert: fs.readFileSync('server.crt')
 }, server).listen(8000, () => {
-  console.log("Acesse a API em https://localhost:8000")
+  console.log("Acesse o endereço https://localhost:8000")
 })
 
 /*server.listen(8000, () => {
