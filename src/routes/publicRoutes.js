@@ -44,7 +44,7 @@ server.post('/cadastrar', async (req, res) => {
     });
 
     const access_token = createToken({ email, senha })
-    return res.status(200).json({ access_token })
+    return res.status(201).json({ access_token })
 })
 
 server.post('/login', (req, res) => {
